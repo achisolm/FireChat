@@ -22,7 +22,7 @@ class FriendsActivity : AppCompatActivity() {
 
         if (this.intent.hasExtra("userEmail")) {
             mUserEmail = this.intent.getStringExtra("userEmail")
-            mUserEmail = this.intent.getStringExtra("userImageUrl")
+            mUserImageUrl = this.intent.getStringExtra("userImageUrl")
         }
         else {
             Log.w("debug", "Activity requires a logged in user")
